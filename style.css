@@ -1,0 +1,127 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.header-fix {
+  height: 85px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.header-container {
+  width: 1024px;
+  margin: auto;
+}
+
+.header-container h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  margin: 84px auto 10px;
+  border: 1px solid #bbbbbb;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  margin-left: 1%;
+  margin-right: 0;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+aside h2 {
+  margin-bottom: 0;
+}
+
+aside ul {
+  margin-top: 10px;
+}
+
+article {
+  text-align: justify;
+}
+
+.marginbot50 {
+  margin-bottom: 50px;
+}
+
+form.form-element {
+  display: table;
+}
+
+form.form-element div {
+  display: table-row;
+}
+
+
+
+form.form-element label,
+form.form-element input,
+form.form-element select,
+form.form-element textarea {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+form .form-element label {
+  padding:  10px;
+}
+
+form.form-element .align-right {
+  text-align: right;
+}
+
+form.form-element select, textarea {
+  width: 100%;
+}
+
+form.form-element textarea {
+  font-family: Roboto, sans-serif;
+  font-size: 0.95em;
+  padding: 4px;
+  resize: none;
+  width: calc(100% - 5px);
+  border-radius: 5px;
+  border: 1px solid rgba(153, 153, 153, 0.91);
+  height: 50px;
+  vertical-align: top;
+}
+
+.mandatory {
+  color: darkred;
+}
+
+.result {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  word-break: break-all;
+}
+
+.result ul {
+  margin-bottom: 0;
+}
+
+img.thumbnail {
+  max-width: 250px;
+}
